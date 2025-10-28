@@ -1,0 +1,77 @@
+#include <iostream>
+using namespace std
+#define size 6;
+class stack{
+int arr[size] ;
+
+stack{
+int top = -1 ;
+
+}
+void push (int x) {
+if (top>=size-1){
+   cout <<"stack is empty" ;
+}
+else{
+arr [++top] = x ;
+//return arr[top];
+}
+
+
+}
+void pop () {
+
+    if (top<0){
+        cout << "stack is empty" ;
+    }
+else {
+    cout << aarr[top--] ;
+
+}
+}
+
+void print_topvalue (){
+cout << arr[top];
+}
+
+}
+class queuee {
+int arr[6];
+int rear ;
+int front ;
+
+queuee(){
+    front = -1 ;
+    rear = 0 ;
+}
+
+int enqueue (int x){
+
+front =0 ;
+rear 
+
+}
+int dequeue(){
+
+}
+}
+//stack implemmentaion
+int arr[6];
+
+int main (){
+
+stack s1 ;
+s1.push(5);
+s1.push(10);
+s1.push7(7);
+s1.push(8);
+s1.push(9);
+
+
+
+s1.pop();
+
+
+
+    return 0;
+}
