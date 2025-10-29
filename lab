@@ -1,16 +1,37 @@
 #include <iostream>
-using namespace std
-#define size 6;
+using namespace std ;
+
+#define size 6 
 class stack{
+
+public:    
 int arr[size] ;
 
 stack{
 int top = -1 ;
 
 }
+
+bool is_full(){
+if (top >= size -1){
+    return true ;
+}
+    
+else{
+    return false ;
+}
+bool is_empty(){
+if (top == -1){
+    return true ;
+}
+else {
+    return false ;
+}
+}
+}
 void push (int x) {
-if (top>=size-1){
-   cout <<"stack is empty" ;
+if ( is_full ){
+   cout <<"stack is Full" ;
 }
 else{
 arr [++top] = x ;
@@ -19,13 +40,13 @@ arr [++top] = x ;
 
 
 }
-void pop () {
+int  pop () {
 
-    if (top<0){
-        cout << "stack is empty" ;
+    if (is_empty){
+        return -1 ;
     }
 else {
-    cout << aarr[top--] ;
+    cout << arr[top--] ;
 
 }
 }
