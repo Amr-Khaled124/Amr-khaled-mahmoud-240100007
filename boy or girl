@@ -17,9 +17,9 @@ int main() {
 
     
     if (distinctLetters.size() % 2 == 0) {
-        cout << "CHAT WITH HER!" << endl;
+        cout << "chat with her" << endl;
     } else {
-        cout << "IGNORE HIM!" << endl;
+        cout << "ignore him" << endl;
     }
 
     return 0;
