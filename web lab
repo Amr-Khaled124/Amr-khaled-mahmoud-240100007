@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amr</title>
+        <link rel="icon" href="R.jpeg">
+        <meta name="description" content="this is my portfolio">
+        <meta name="keywords" content="web, php, laravel, html">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1 class ="cl2">Hello i'm,Amr </h1>
+        <p>Aspiring <strong>Web Developer</strong></p>
+        <p>
+            i enjoy building websites and <em>learning</em> new technologies at first,
+            <del>coding felt impossible,</del>
+            <ins>but now i see</ins> it as a fun challenge!
+        </p>
+        <p>this is water formula: H<sub>2</sub>O </p>
+        <p>this is the arear for the square:x<sup>2</sup> </p>
+        <p>this is what html means: <abbr title="hypertext markup language">HTML</abbr></p>
+        <br>
+        <pre>
+            <code>
+    function welcome(){
+        console.log("hello")
+    }
+    welcome()
+            </code>
+        </pre>
+        <p>copyright &copy;</p>
+        <hr width="50%" align="left" color="white   " size="3">
+        <br>
+
+        <q>this is inline quote</q>
+        <blockquote>"this is block quote"</blockquote>
+        <br>
+
+ 
+        <img src="profile.jpg" alt="Profile photo" width="150" height="150">
+        <h2>Find Me Online</h2>
+        
+      
+
+        <iframe src="https://learnms.sut.edu.eg/login/index.php" width="400" height="300"></iframe>
+        <br>
+        <video src="video.mp4" width="400" controls loop autoplay></video>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>milk</td>
+                    <td>3</td>
+                    <td>50$</td>
+                </tr>
+                <tr>
+                    <td>coffee</td>
+                    <td rowspan="2">2</td>
+                    <td>70$</td>
+                </tr>
+                <tr>
+                    <td>cheese</td>
+
+                    <td>100$</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total is 220$</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h2>My skills</h2>
+        <ul>
+            <li>test1</li>
+            <li>javascript
+                <ul>
+                    <li>Reactjs</li>
+                    <li>Angular</li>
+                </ul>
+            </li>
+            <li id="id1">test3</li>
+        </ul>
+
+        <h2>Projects</h2>
+        <ol type="I">
+            <li>Restrunt Website using HTML&CSS</li>
+            <li></li>
+            <li>third</li>
+        </ol>
+        <div class="div1">
+        <form>
+            <label>Username</label>
+            <input type="text" value="amr" placeholder="Don't enter usename 😡😡" required>
+            <br>
+            <label >Email</label>
+            <input type="email" value="amr@gmail.com">
+            <label>Password</label>
+            <input type="password" value="1234">
+            <br>
+            <input type="date">
+            <input type="file">
+            <br>
+            <input type="checkbox">
+            <input type="color">
+            <br>
+            <textarea placeholder="leave your message"></textarea>
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+        </div>
+
+        <dl>
+            <dt>html</dt>
+            <dd>buid the structure</dd>
+
+            <dt>css</dt>
+            <dd>add style</dd>
+        </dl>
+    </body>
+</html>
